@@ -101,8 +101,8 @@ struct Engineer {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Bhavesh6&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=00E5FF&icon_color=00E5FF&text_color=9BA3AF&bg_color=0D1117" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Bhavesh6&layout=compact&langs_count=8&hide=html,css,javascript&hide_border=true&title_color=00E5FF&text_color=9BA3AF&bg_color=0D1117" alt="Top languages" />
+<img height="170" src="https://github-readme-stats-salesp07.vercel.app/api?username=Bhavesh6&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=00E5FF&icon_color=00E5FF&text_color=9BA3AF&bg_color=0D1117" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=Bhavesh6&layout=compact&langs_count=8&hide=html,css,javascript&hide_border=true&title_color=00E5FF&text_color=9BA3AF&bg_color=0D1117" alt="Top languages" />
 
 <br/><br/>
 
@@ -110,11 +110,7 @@ struct Engineer {
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Bhavesh6&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Bhavesh6&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true" alt="Activity graph" />
+<img src="https://github-trophies.vercel.app/?username=Bhavesh6&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
 
 </div>
 
