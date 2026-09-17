@@ -6,6 +6,7 @@
 <a href="https://bhavesh6.github.io/portfolio/"><img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=firefoxbrowser&logoColor=00E5FF" alt="Portfolio" /></a>
 <a href="mailto:bhavesh.waghmare05@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <img src="https://img.shields.io/badge/Amravati,%20India-4A9E5C?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+<a href="https://github.com/Bhavesh6?tab=followers"><img src="https://img.shields.io/github/followers/Bhavesh6?style=for-the-badge&logo=github&logoColor=white&color=0A0A0A&labelColor=0A0A0A" alt="Followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=Bhavesh6&style=for-the-badge&color=00E5FF&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
@@ -113,6 +114,14 @@ struct Engineer {
 <img src="https://github-trophies.vercel.app/?username=Bhavesh6&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8" alt="Trophies" />
 
 </div>
+
+---
+
+## Dev Metrics
+
+<!--START_SECTION:waka-->
+<!-- This block is rewritten daily by .github/workflows/waka.yml. -->
+<!--END_SECTION:waka-->
 
 ---
 

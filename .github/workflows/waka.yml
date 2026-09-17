@@ -1,0 +1,46 @@
+name: Update dev metrics
+
+on:
+  schedule:
+    # Once a day. WakaTime aggregates daily, so anything faster just churns commits.
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update this repo's README
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: anmol098/waka-readme-stats@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          # Commit timing and per-repo language come from the GitHub API, so these
+          # populate immediately, with or without WakaTime data.
+          SHOW_COMMIT: "True"
+          SHOW_DAYS_OF_WEEK: "True"
+          SHOW_LANGUAGE_PER_REPO: "True"
+          SHOW_SHORT_INFO: "True"
+
+          # These need WakaTime to have been collecting from the editor first.
+          SHOW_LANGUAGE: "True"
+          SHOW_EDITORS: "True"
+          SHOW_OS: "True"
+          SHOW_PROJECTS: "True"
+          SHOW_TIMEZONE: "True"
+          SHOW_TOTAL_CODE_TIME: "True"
+
+          # Off on purpose: there is already a profile-views badge in the header,
+          # the LOC chart is noise at this repo count, and the AI blocks render
+          # empty until WakaTime has AI data to report.
+          SHOW_PROFILE_VIEWS: "False"
+          SHOW_LOC_CHART: "False"
+          SHOW_LINES_OF_CODE: "False"
+          SHOW_AI_CODE_TIME: "False"
+          SHOW_AI_CODING: "False"
+
+          COMMIT_MESSAGE: "Update dev metrics"
