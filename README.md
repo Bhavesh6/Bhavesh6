@@ -29,8 +29,6 @@ struct Engineer {
 - **Currently building** — [SafetyFirst](https://github.com/Bhavesh6/PPE-Detection), an RFID + YOLOv8 PPE access-control gate for work sites
 - **Actually deployed** — a [five-room smart switch system](https://github.com/Bhavesh6/esp-rainmaker-smart-switches) running on hand-wired bare ESP32-WROOM-32E modules
 - **Learning right now** — SigmaDSP audio design, CAN bus, and PCB work beyond the two-layer comfort zone
-- **Ask me about** — ESP-NOW, non-blocking firmware, watchdogs, LiPo power paths, or why your relay flickers on boot
-- **Fun fact** — my wall switches keep working with the Wi-Fi *and* the cloud completely down. Only the app needs internet.
 - **1st place, hardware division** — CMR Hackfest 3.0 (national), plus 2nd runner-up overall
 
 ---
